@@ -1,0 +1,332 @@
+/* Selection Bar */
+.selection-bar {
+  display: flex;
+  gap: 35px;
+  font-size: 22px;
+  justify-content: end;
+  margin-right: 30px;
+}
+
+/* Home Page */
+.home-wrapper {
+  height: 1080px;
+  width: 1920px;
+}
+
+.home-wrapper .selection-bar {
+  padding-top: 20px;
+}
+
+.title-home {
+  height: 192px;
+  font-size: 114px;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: -90px;
+  margin-top: 250px;
+}
+
+.description-home {
+  text-align: center;
+  position: relative;
+  height: 103px;
+  color: #000;
+  font-family: Koulen;
+  font-size: 74px;
+  font-weight: 400;
+  margin-bottom: -60px;
+  left: -87px;
+}
+
+.secondary-description-home {
+  color: #000;
+  font-family: Koulen;
+  font-size: 74px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  height: 103px;
+  text-align: center;
+  position: relative;
+  left: 87px;
+}
+
+.tech-stack-home {
+  color: #000;
+  font-family: Koulen;
+  font-size: 27px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  height: 34px;
+  text-align: center;
+  position: relative;
+  left: -173px;
+  top: 0;
+}
+
+.tech-stack-home-images {
+  height: 70px;
+  display: flex;
+  scale: 0.7;
+  justify-content: center;
+  position: relative;
+  top: -70px;
+  left: 70px;
+  gap: 20px;
+}
+
+.html-image {
+  width: 75px;
+  height: 79px;
+  margin-right: -10px;
+}
+
+.css-image {
+  width: 100px;
+  height: 79px;
+  position: relative;
+  top: -3px;
+  margin-right: -5px;
+}
+/* Home Page */
+
+/* About me Page */
+
+.about-wrapper {
+  height: 1080px;
+  width: 1920px;
+}
+
+.about-wrapper .selection-bar {
+  padding-top: 30px;
+}
+
+.about-title {
+  color: #000;
+  font-size: 105px;
+  font-weight: 400;
+  position: relative;
+  text-align: center;
+  margin-bottom: -180px;
+  z-index: 2;
+}
+
+.about-me-section {
+  position: relative;
+  left: 130px;
+  width: 1700px;
+  height: 750px;
+}
+
+.about-circle {
+  top: 200px;
+  left: 300px;
+  align-items: center;
+  position: relative;
+  width: 558px;
+  height: 558px;
+  background-color: #d9d9d9;
+  display: flex;
+  justify-content: space-around;
+  border-radius: 50%;
+  border: 4px solid black;
+}
+
+.about-text-circle {
+  font-family: Koulen;
+  position: relative;
+  height: 161px;
+  color: #000;
+  text-align: center;
+  text-shadow: 0px 4px 4px 0px #fff;
+  font-size: 43px;
+  font-weight: 400;
+  width: 447px;
+}
+
+.about-content {
+  width: 700px;
+  position: relative;
+  top: -365px;
+  left: 900px;
+  text-align: left;
+  color: #000;
+  font-family: Koulen;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+/* About me Section */
+
+/* Projects Section */
+
+.projects-wrapper {
+  height: 1080px;
+  width: 1920px;
+}
+
+.projects-title {
+  color: #000;
+  font-family: Koulen;
+  font-size: 68px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.projects-container {
+  display: flex;
+  gap: 102px;
+  justify-content: center;
+}
+
+.projects-display-babylon {
+  width: 310px;
+  height: 431px;
+  box-shadow: -10px 8px 0px 0px #9a9a9a;
+  background-image: url(./assets/babylon-website.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: -260px;
+  border: 2px solid black;
+}
+
+.projects-display-left {
+  width: 310px;
+  height: 431px;
+  background-image: url(../src/assets/kiosk-english.gif);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-x: 30px;
+  box-shadow: -10px -8px 4px 0px #9a9a9a;;
+  background-color: #4500a7;
+  border: 2px solid black;
+}
+
+.projects-display-right {
+  width: 310px;
+  height: 431px;
+  background-image: url(../src/assets/portfolio-image.png);
+  background-repeat: no-repeat;
+  background-size: 110%;
+  background-position-y: 50%;
+  background-position-x: -15px;
+  box-shadow: 10px 8px 0px 0px #9a9a9a;
+  border: 2px solid black;
+}
+
+.projects-description {
+  margin-top: 450px;
+  text-align: left;
+}
+
+.babylon-link{
+  color: black;
+  text-align: center;
+  text-decoration: none;
+}
+
+.babylon-link a:visited{
+  text-decoration: none;
+  text-align: center;
+}
+
+.description-title {
+  text-align: center;
+}
+
+.project-tech-stack {
+  margin-left: 10px;
+}
+
+.project-tech-stack .javascript-logo {
+  margin-left: 10px;
+  margin-right: 20px;
+}
+
+.projects-logos {
+  display: flex;
+  scale: 0.8;
+}
+
+.figma-logo {
+  width: 100px;
+}
+
+.github-logo {
+  margin-top: 15px;
+  width: 70px;
+}
+
+.portfolio-logo {
+  width: 80px;
+  margin-top: 12px;
+  margin-left: 10px;
+}
+/* End of Projects Section */
+
+/* Contacts Section */
+
+.contact-wrapper {
+  width: 1920px;
+  height: 1000px;
+}
+
+.contact-title {
+  left: 511px;
+  display: flex;
+  position: relative;
+  color: #000;
+  width: 897px;
+  text-align: center;
+  font-family: Koulen;
+  font-size: 49px;
+  font-weight: 400;
+  margin-top: 100px;
+}
+
+.form-control {
+  background-color: #bebebe !important;
+}
+
+.name-entry {
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+.email-entry {
+position: relative;
+left: 500px;
+top: -70px;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+.message-entry {
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+#container-contact {
+  display: flex;
+  max-width: 950px;
+}
+
+#name {
+  width: 400px;
+}
+
+#email {
+  position: relative;
+  width: 400px;
+}
+
+#message {
+  width: 900px;
+  height: 200px;
+}
+
+.btn.btn-danger {
+  width: 200px;
+  position: relative;
+  left: 38%;
+  margin-top: 20px;
+}
+/* End of Contacts Page */

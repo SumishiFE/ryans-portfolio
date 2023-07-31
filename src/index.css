@@ -1,0 +1,10 @@
+@font-face {
+  font-family: "Koulen";
+  src: url(../src/assets/Koulen-Regular.ttf);
+}
+
+body {
+  font-family: "Koulen";
+  direction: ltr;
+  overflow-x: hidden;
+}
